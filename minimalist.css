@@ -1,0 +1,86 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+}
+
+.my-auto {
+  margin: auto 0;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.nav-container-min {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.banner-content {
+  background-color: #1E1E1E;
+  color: #fff;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.banner-content .banner-title {
+  font-size: 50px;
+  /* width: 250px; */
+}
+
+.banner-title-container {
+  width: 250px;
+}
+
+.w-300px {
+  width: 300px;
+}
+
+.experience-content {
+  padding: 100px;
+}
+
+.experience-content .title {
+  font-size: 50px;
+}
+
+.experience-content .card-parent {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card-container .button-card:hover {
+  background-color: red;
+}
+
+.banner-content .card-parent {
+
+}
+
+.experience-content .card-parent {
+
+}

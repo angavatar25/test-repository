@@ -1,0 +1,72 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+body {
+  background-color: gray;
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  font-size: 16px;
+  line-height: 3;
+  border: none;
+  border-radius: 12px;
+}
+
+.button-primary {
+  background-color: orange;
+}
+
+.button-secondary {
+  background-color: #fff;
+  color: gray;
+  border: 1px solid gray;
+}
+
+.parent-container {
+  background-color: #fff;
+  width: 550px;
+  margin: auto;
+  height: 100vh;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar-container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.navbar-container > .navbar-content {
+  margin: auto 0;
+}
+
+.navbar-container > .navbar-content > a {
+  color: black;
+  text-decoration: none;
+}
+
+.banner-container {
+  padding: 10px;
+}
+
+.banner-container > .banner-title {
+  font-size: 40px;
+}
+
+.content-container {
+  padding: 10px;
+}
+
+.content-container > .content-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.content-container > .content-flex > .image {
+  width: 250px;
+}
